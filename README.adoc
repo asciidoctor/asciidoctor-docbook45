@@ -1,8 +1,14 @@
 = DocBook 4.5 Converter for Asciidoctor
 :idprefix:
 :idseparator: -
+ifdef::env-github[]
+:warning-caption: :warning:
+endif::[]
 
 An Asciidoctor converter that converts AsciiDoc to DocBook 4.5.
+
+WARNING: This converter is community maintained and will not be released.
+The built-in DocBook 5 converter is preferred.
 
 == Installation
 
