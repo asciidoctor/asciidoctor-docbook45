@@ -27,7 +27,7 @@ Then, run Bundler:
 
 When invoking the `asciidoctor` command, set the backend to `docbook45` and require this library:
 
- $ asciidoctor -b docbook45 -r asciidoctor-docbook45 README.adoc
+ $ bundle exec asciidoctor -b docbook45 -r asciidoctor-docbook45 README.adoc
 
 Or when using Asciidoctor via the API:
 
